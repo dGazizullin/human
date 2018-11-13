@@ -14,9 +14,6 @@ public:
 	Student();
 	Student(string name, string surname, int age, vector <float> marks);
 private:
-	string name;
-	string surname;
-	int age;
 	float averageMark;
 	vector <float> marks;
 };
